@@ -15,3 +15,7 @@ while dia !=0:
         print("Sábado")
     if dia==7:
         print("Domingo")
+    else:
+        print("Error. El número digitado no es válido")
+    print("Presiona Cero para salir")
+    dia = int(input("Ingrese el día de la semana de forma numérica(1-7)"))
